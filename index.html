@@ -1,0 +1,27 @@
+// import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const DomBaba = () => {
+    React.useEffect(() => {
+        const a = document.getElementById('hihi');
+        if (a) {
+            a.style.backgroundColor = "red";
+        }
+    }, []);
+
+    return (
+        <>
+            <div>DomBaba</div>
+            <h1 id='hihi'>Hello World!</h1>
+        </>
+    );
+}
+
+// Create a root element if it doesn't exist
+const rootElement = document.getElementById('root') || document.createElement('div');
+if (!document.getElementById('root')) {
+    document.body.appendChild(rootElement);
+}
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(<DomBaba />);

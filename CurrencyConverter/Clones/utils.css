@@ -1,0 +1,87 @@
+.flex{
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+
+.justify-center{
+     justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight:bold;
+}
+
+.search{
+    background-color: #E8E8E8;
+    font-family:cursive ;
+    width: 20vw;
+    border-radius: 5px ;
+    border: 1px solid #E8E8E8;
+    
+}
+
+.mx-2{
+    margin-left: 20px;
+    margin-left: 19px;
+    font-family:cursive;
+    cursor:pointer ;
+}
+.homeImg{
+    width: 85vw;
+    height: 35vw;
+    margin: 12px 0;
+}
+
+.heading{
+    padding: 20px;
+    text-align: left;
+    max-width:max-content;
+    font-family: cursive;
+    font-weight:bold;
+}
+
+.Clothes .s1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100px;
+  
+}
+
+.border .s1{
+    display: flexbox;
+    text-align:right;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 70px;
+    position: relative;
+    border-radius: 5%;
+    cursor: pointer;
+ 
+    
+}
+
+.category{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin: 8%;
+    max-width:max-content;
+    font-family: cursive;
+    font-weight:bold;
+}
+
+.categories{
+    width: 20vw;
+    margin: 0 20px;
+}
+

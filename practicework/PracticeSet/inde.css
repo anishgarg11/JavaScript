@@ -1,0 +1,23 @@
+#button1{
+    border: none;
+    padding: 10px 15px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+#button2{
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+#button3{
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+}
